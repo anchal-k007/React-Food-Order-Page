@@ -13,9 +13,6 @@ const Cart = props => {
 
   const cardItemsArray = cartItemsCtx.items;
 
-  console.log(Date.now());
-  console.log(cardItemsArray);
-
   const handleCartItemAdd = (item) => {
     cartItemsCtx.addItem({
       id: item.id,
